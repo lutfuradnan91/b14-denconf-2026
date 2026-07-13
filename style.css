@@ -31,7 +31,7 @@ nav{
     align-items: center;
 }
 
-ul{
+nav ul{
     display:flex;
     gap:10px;
     list-style: none;
@@ -82,5 +82,123 @@ h1{
 
 h1{
     font-style: italic;
-}  
+} 
+
+
+.speaker-section h1{
+    font-style: normal;
+    text-align: center;
+    margin:50px;
+    padding-top: 50px;
+    font-size:70px;
+
+}
+
+.speaker-parent{
+       justify-content:center;
+       display:grid;
+       grid-template-columns: repeat(2,1fr);
+       gap:10px;
+       padding:50px;
+       margin-left: 200px;
+       margin-right: 200px;
+}
+
+.speaker-card p:first-of-type{
+    color:blue;
+    font-weight: bold;
+}
+
+.speaker-card p h2{
+    padding-top: 10px;
+    
+}
+
+.speaker-card{
+    background-color:#f3eee8;
+    border-radius: 10px;
+    text-align: left;
+    margin:20px;
+
+
+}
+
+.speaker-card img{
+    width:100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
+.pricing-card-parent{
+    margin:60px auto;
+    text-align: center;;
+}
+
+.pricing-card-parent >p{
+    font-size:10px;
+    color: gray;
+}
+
+.pricing-card-container{
+    margin-top: 30px;
+    display:flex;
+    justify-content: space-between;
+    gap:8px;
+}
+
+.pricing-card ul{
+    padding-left:20px;
+    list-style-position:outside;
+}
+
+
+.pricing-card ul li::marker{
+    color: blue;
+}
+
+ .pro-card{
+    background-color:black;
+    color:white
+}
+
+.pricing-card{
+    border:2px solid gray;
+    padding:8px;
+    border-radius: 10px;
+    text-align: left;;
+}
+
+.outline-button{
+    color:blue;
+    border: 2px solid #2563EB;
+    background-color: white;
+}
+
+.contact-btn{
+    color:black;
+    border:2px solid black;
+}
+
+.price-text {
+    margin-bottom: 20px;
+
+}
+
+.pricing-card hr{
+    border: none;
+    margin-bottom: 25px;
+}
+
+.pricing-card button{
+    display:block;
+    width:100%;
+    padding:12px;
+    margin-top:25px;
+}
+
+.pricing-card h2{
+    margin:10px;
+}
+
 
