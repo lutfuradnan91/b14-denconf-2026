@@ -19,6 +19,11 @@ img{
     font-size: 20px;
 }
 
+.common-button:hover{
+    background-color:coral
+}
+
+
 .container{
     max-width: 1280px;
     margin:auto;
@@ -185,6 +190,10 @@ h1{
     background-color: white;
 }
 
+.outline-button:hover{
+    background-color: aqua;
+}
+
 .contact-btn{
     color:black;
     border:2px solid black;
@@ -222,7 +231,13 @@ h1{
     display:flex;
     justify-content: space-between;
     align-items:center;
+
     
+}
+
+.footer-logo{
+    margin-right:10px;
+    padding-left: 50px;
 }
 
 
@@ -243,8 +258,8 @@ h1{
 }
 
 .footer hr{
-    width:70%;
-    margin:40px auto;
+    width:85%;
+    margin:30px auto;
 }
 
 .copyright{
