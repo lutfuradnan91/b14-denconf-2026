@@ -5,12 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Website</title>
+
+    <!-- Connect HTML with CSS-->
     <link rel="stylesheet" href="./style.css">
 
 </head>
 
 <body>
 
+    <!-- Navbar start -->
     <header>
         <nav class="container">
             <img src="./assets/logo.png" alt="">
@@ -25,10 +28,12 @@
 
         </nav>
     </header>
+    <!-- Navbar end-->
 
 
 
 
+    <!-- Hero section start -->
     <div class="hero-banner ">
 
         <div class="hero-text">
@@ -39,51 +44,56 @@
             <button class="common-button">Register Now</button>
         </div>
     </div>
+    <!-- Hero section end -->
 
+
+
+    <!-- Speaker section start  -->
     <section class="speaker-section">
         <h1>Meet the Speakers</h1>
 
-     <div class="speaker-parent">
-        <div class="speaker-card">
-      
-        <img src="assets/andrej.png" alt="">
-        <p>AI/ML</p>
-        <h2>Andrej Karpathy</h2>
-        <p>Pretraining team,Anthropic</p>
+        <div class="speaker-parent">
+            <div class="speaker-card">
+
+                <img src="assets/andrej.png" alt="">
+                <p>AI/ML</p>
+                <h2>Andrej Karpathy</h2>
+                <p>Pretraining team,Anthropic</p>
+            </div>
+
+            <div class="speaker-card">
+                <img src="assets/demis.png" alt="">
+                <p>CLOUD & DEVOPS</p>
+                <h2>Demis Hassabis</h2>
+                <p>Co-founder and CEO,Google Deepmind</p>
+            </div>
+
+
+            <div class="speaker-card">
+                <img src="./assets/gary.png" alt="">
+                <p>FRONTEND</p>
+                <h2>Gary Marcus</h2>
+                <p>Staff Engineer,Vercei</p>
+            </div>
+
+
+            <div class="speaker-card">
+                <img src="./assets/mustafa.png" alt="">
+                <p>SECURITY</p>
+                <h2>Mustafa Suleyman</h2>
+                <p>CEO of Microsoft AI</p>
+            </div>
+
         </div>
-
-        <div class="speaker-card">
-        <img src="assets/demis.png" alt="">
-        <p>CLOUD & DEVOPS</p>
-        <h2>Demis Hassabis</h2>
-        <p>Co-founder and CEO,Google Deepmind</p>
-        </div>
-
-
-        <div class="speaker-card">
-        <img src="./assets/gary.png" alt="">
-        <p>FRONTEND</p>
-        <h2>Gary Marcus</h2>
-        <p>Staff Engineer,Vercei</p>
-        </div>
-
-
-        <div class="speaker-card">
-        <img src="./assets/mustafa.png" alt="">
-        <p>SECURITY</p>
-        <h2>Mustafa Suleyman</h2>
-        <p>CEO of Microsoft AI</p>
-        </div>
-
-    </div>
 
     </section>
-            
-        
+    <!-- Speaker section end-->
 
 
 
 
+
+    <!-- Pricing card section start-->
     <section class="pricing-card-parent container">
 
         <h2>Secure Your Spot </h2>
@@ -91,69 +101,114 @@
 
         <div class="pricing-card-container">
             <div class="pricing-card">
-        <p class="stand">STANDARD</p>
-        <h1>$399</h1>
-        <p class="price-text">per person</p>
-        <hr>
+                <p class="stand">STANDARD</p>
+                <h1>$399</h1>
+                <p class="price-text">per person</p>
+                <hr>
 
-        <ul>
-            <li>Access to all 3 conference days</li>
-            <li>48 curated technical talks</li>
-            <li>2 workshop sessions</li>
-            <li>Networking lunch & coffee break</li>
-            <li>Conference swag bag</li>
-            <li>Digital recordings (30 days)</li>
-            
-        </ul>
+                <ul>
+                    <li>Access to all 3 conference days</li>
+                    <li>48 curated technical talks</li>
+                    <li>2 workshop sessions</li>
+                    <li>Networking lunch & coffee break</li>
+                    <li>Conference swag bag</li>
+                    <li>Digital recordings (30 days)</li>
 
-        <button class="outline-button">Get Standard</button>
+                </ul>
+
+                <button class="outline-button">Get Standard</button>
 
             </div>
 
 
 
-        <div class="pricing-card pro-card">
-        <p class="procolor">PRO</p>
-        <h1>$749</h1>
-        <p class="price-text">per person</p>
-        <hr>
+            <div class="pricing-card pro-card">
+                <p class="procolor">PRO</p>
+                <h1>$749</h1>
+                <p class="price-text">per person</p>
+                <hr>
 
-        <ul>
-            <li>Everything in Standard</li>
-            <li>Unlimited workshop access</li>
-            <li>Speaker meet & greet</li>
-            <li>VIP networking dinner</li>
-            <li>Lifetime recording access</li>
-            <li>1‑on‑1 mentorship (30 min)</li>
-            
-        </ul>
-        <button class="common-button">Get Pro</button>
+                <ul>
+                    <li>Everything in Standard</li>
+                    <li>Unlimited workshop access</li>
+                    <li>Speaker meet & greet</li>
+                    <li>VIP networking dinner</li>
+                    <li>Lifetime recording access</li>
+                    <li>1‑on‑1 mentorship (30 min)</li>
+
+                </ul>
+                <button class="common-button">Get Pro</button>
             </div>
 
-        <div class="pricing-card">
+            <div class="pricing-card">
 
-        <p class="stand">TEAM</p>
-        <h1>$5,499</h1>
-        <p class="price-text">up to 10 people</p>
-        <hr>
+                <p class="stand">TEAM</p>
+                <h1>$5,499</h1>
+                <p class="price-text">up to 10 people</p>
+                <hr>
 
-        <ul>
-            <li>Everything in Pro (10 seats)</li>
-            <li>Dedicated team lounge access</li>
-            <li>Private workshop booking</li>
-            <li>Company logo on event page</li>
-            <li>Recruitment booth (1 day)</li>
-            <li>Priority customer support</li>
-        </ul>
-        <button class="outline-button contact-btn">Contact Us</button>
-    </div>
-                
-    </div>
+                <ul>
+                    <li>Everything in Pro (10 seats)</li>
+                    <li>Dedicated team lounge access</li>
+                    <li>Private workshop booking</li>
+                    <li>Company logo on event page</li>
+                    <li>Recruitment booth (1 day)</li>
+                    <li>Priority customer support</li>
+                </ul>
+                <button class="outline-button contact-btn">Contact Us</button>
+            </div>
+
+        </div>
 
 
     </section>
+    <!-- Pricing card section end -->
 
 
+
+    <!-- AI generated sction start -->
+    <section class="coding-arena container">
+
+        <h2>Live Coding Arena</h2>
+        <p class="arena-subtitle">
+            Experience the thrill of live programming battles, algorithm challenges,
+            and real-time debugging with developers from around the world.
+        </p>
+
+        <div class="arena-card-container">
+
+            <div class="arena-card">
+                <h3>⚡ Speed Coding</h3>
+                <p>Compete against top developers in fast-paced coding rounds.</p>
+            </div>
+
+            <div class="arena-card">
+                <h3>🐞 Bug Hunt</h3>
+                <p>Find and fix real-world software bugs before time runs out.</p>
+            </div>
+
+            <div class="arena-card">
+                <h3>🧠 Algorithm Battle</h3>
+                <p>Solve challenging algorithmic problems to climb the leaderboard.</p>
+            </div>
+
+            <div class="arena-card">
+                <h3>🏆 Live Leaderboard</h3>
+                <p>Track scores in real time and compete for exclusive DevConf prizes.</p>
+            </div>
+
+        </div>
+
+        <button class="common-button">Join the Arena</button>
+
+    </section>
+    <!-- AI generated section end -->
+
+
+
+
+
+    <!--  Footer section start -->
     <footer class="footer">
         <div class=" footer-top">
             <div class="footer-logo">
@@ -179,6 +234,7 @@
 
         <p class="copyright">© 2026 DevConf. All rights reserved</p>
     </footer>
+    <!--  Footer section end -->
 
 
 
